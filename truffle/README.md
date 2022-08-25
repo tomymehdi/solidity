@@ -4,7 +4,7 @@
 # Run testing cli
 `npx ganache-cli --deterministic`
 
-# Deploy contracts
+# Deploy / Upgrade contracts
 `npx truffle migrate --network development`
 
 # Truffle console
@@ -12,3 +12,16 @@
 
 # Execute scripts with Truffle
 `npx truffle exec --network development ./scripts/index.js`
+
+# Execute tests with Truffle
+`npx truffle test`
+
+# Testnet
+`https://dashboard.alchemy.com/`
+
+# Fresh Mnemonic
+`npx mnemonics`
+
+# Deploy to testnet
+`npx truffle migrate --network rinkeby`
+`npx truffle console --network rinkeby`
