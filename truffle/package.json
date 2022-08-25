@@ -15,5 +15,8 @@
   "devDependencies": {
     "ganache-cli": "^6.12.2",
     "truffle": "^5.5.28"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3"
   }
 }
