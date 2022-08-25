@@ -6,6 +6,7 @@
 
 # Deploy / Upgrade contracts
 `npx truffle migrate --network development`
+`npx truffle compile --all && npx truffle migrate --reset`
 
 # Truffle console
 `npx truffle console --network development`
