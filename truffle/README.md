@@ -26,3 +26,6 @@
 # Deploy to testnet
 `npx truffle migrate --network rinkeby`
 `npx truffle console --network rinkeby`
+
+
+Documentation bug: When migrating / upgrading contract in the last part of the doc it should clarify the migration --reset command. https://docs.openzeppelin.com/learn/upgrading-smart-contracts

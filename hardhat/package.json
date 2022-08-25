@@ -11,6 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-truffle5": "^2.0.6",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "chai": "^4.3.6",
     "ethers": "^5.7.0",
     "hardhat": "^2.10.2"
   },
