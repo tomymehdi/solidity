@@ -15,5 +15,10 @@ module.exports = {
       url: `https://eth-rinkeby.alchemyapi.io/v2/${alchemyApiKey}`,
       accounts: { mnemonic: mnemonic },
     },
+    localhost: {
+      url: "http://127.0.0.1:8545",
+      gas: 2100000,
+      gasPrice: 8000000000,
+    },
   },
 };
